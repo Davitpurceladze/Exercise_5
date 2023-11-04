@@ -32,4 +32,44 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:paddingTop="20dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/log_in_shape"
+            android:layout_weight="1"
+            android:text="@string/log_in"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:letterSpacing="0.04"
+            android:lineHeight="15sp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="0dp"
+            android:layout_marginEnd="9dp"
+            android:layout_height="52dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/register_shape"
+            android:layout_weight="1"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:letterSpacing="0.04"
+            android:lineHeight="15sp"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginStart="9dp"
+            android:layout_width="0dp"
+            android:layout_height="52dp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
 </FrameLayout>
