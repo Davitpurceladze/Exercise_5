@@ -19,5 +19,10 @@ class RegisterFirstPageActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnNext.setOnClickListener {
+            val intent = Intent(this, RegisterSecondPageActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
