@@ -20,5 +20,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnLogIn.setOnClickListener {
+            val intent = Intent(this, LogInPageActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
