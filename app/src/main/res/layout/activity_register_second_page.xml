@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"/>
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etUsername"
         android:layout_marginTop="32dp"
         android:paddingStart="17dp"
         android:paddingEnd="17dp"
@@ -34,7 +35,16 @@
         android:layout_width="match_parent"
         android:layout_height="52dp"/>
 
+    <ProgressBar
+        android:layout_marginTop="16dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUp"
         android:text="@string/sign_up"
         android:textColor="@color/white"
         android:textSize="13sp"
@@ -55,5 +65,30 @@
         android:layout_marginTop="32dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/testEmail"-->
+<!--        android:text="@string/register_title"-->
+<!--        android:layout_marginTop="32.65dp"-->
+<!--        android:textSize="36sp"-->
+<!--        android:lineHeight="40sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:letterSpacing="0.01"-->
+<!--        android:fontFamily="@font/comforta"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/testPassword"-->
+<!--        android:text="@string/register_title"-->
+<!--        android:layout_marginTop="32.65dp"-->
+<!--        android:textSize="36sp"-->
+<!--        android:lineHeight="40sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:letterSpacing="0.01"-->
+<!--        android:fontFamily="@font/comforta"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

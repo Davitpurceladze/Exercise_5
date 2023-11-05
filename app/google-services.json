@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "579234849001",
+    "project_id": "authentication-android-a-ff1bc",
+    "storage_bucket": "authentication-android-a-ff1bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579234849001:android:bead61869ae73931f39078",
+        "android_client_info": {
+          "package_name": "com.example.exercise_5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo7qTaaGTdy1Oh9G_bx3tKQTIfdwBmhPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
