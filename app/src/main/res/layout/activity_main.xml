@@ -57,9 +57,9 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
-            android:background="@drawable/register_shape"
+            android:background="@drawable/btn_black_shape"
             android:layout_weight="1"
-            android:text="@string/register"
+            android:text="@string/register_btn"
             android:textColor="@color/white"
             android:textSize="13sp"
             android:letterSpacing="0.04"

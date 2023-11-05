@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:background="@drawable/ic_back_arrow"
+        android:layout_width="12dp"
+        android:layout_height="12dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="@string/register_title"
+        android:layout_marginTop="32.65dp"
+        android:textSize="36sp"
+        android:lineHeight="40sp"
+        android:textColor="@color/black"
+        android:letterSpacing="0.01"
+        android:fontFamily="@font/comforta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="32dp"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp"
+        android:hint="@string/register_email"
+        android:background="@drawable/input_shape"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="16dp"
+        android:paddingStart="17dp"
+        android:paddingEnd="17dp"
+        android:hint="@string/register_password"
+        android:background="@drawable/input_shape"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="@string/next_btn"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:lineHeight="15sp"
+        android:fontFamily="@font/roboto_bold"
+        android:letterSpacing="0.04"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_black_shape"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
